@@ -1,16 +1,55 @@
-# games
+# 🎮 Flutter Game Collection
 
-a project composed of many games
+A growing collection of simple, fun, and beginner-friendly Flutter games.  
+The goal of this project is to build small games whenever a new idea comes —  
+each one added and updated inside this single repository.
 
-## Getting Started
+This project helps me practice:
+- Flutter UI
+- Game logic
+- State management
+- Animations
+- Clean code structure
+- Publishing and maintaining GitHub projects
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Current Games
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 1️⃣ Rock – Paper – Scissors (RPS)
+The first game added to the collection.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+#### 🎯 **Game Description**
+A classic Rock–Paper–Scissors game built using:
+- Flutter
+- Material & Cupertino icons
+- Simple score system
+- User vs AI logic
+- Clean UI
+
+#### 🧠 **Features**
+- Player chooses: Rock, Paper, or Scissors  
+- AI randomly selects a move  
+- Score updates instantly  
+- Tie detection  
+- Win/Lose logic works correctly  
+- Smooth UI interaction
+
+#### 🛠️ **Technical Notes**
+- Game logic handled with a clean `scoreCalculator()` function
+- Icons taken from:
+  - `FontAwesomeIcons`
+  - `CupertinoIcons`
+  - `Material Icons`
+
+---
+
+## 📦 How to Run
+
+Clone the repo:
+
+```bash
+git clone https://github.com/asdfrlife/Flutter-game-Collection
+flutter pub get
+flutter run
+```
